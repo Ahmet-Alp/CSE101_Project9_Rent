@@ -5,10 +5,15 @@ This is a terminal-based vehicle rental system. The project manages vehicle inve
 The project is divided modules to keep the code organized:
 
 -main.py: The entry point of the application. It contains the menu system and interacts with the user.
+
 -vehicles.py: Manages the vehicle fleet, including adding new vehicles and checking availability.
+
 -customers.py: Handles customer registration, login verification (PIN), and profile updates.
+
 reservations.py: The core logic of the system. It handles booking, date overlap checks, and invoice calculations.
+
 -storage.py: Manages data persistence. It loads/saves data from JSON files and creates backups.
+
 -reports.py: Generates simple reports for system usage and revenue summary.
 
 
